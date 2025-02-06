@@ -10,7 +10,7 @@ terraform {
 provider "local" {}
 
 resource "local_file" "example" {
-  filename = "example.txt"
-  content  = "Hello, friend."
+  filename = "main.txt"
+  content  = "This is from the main.tf file"
 }
 
